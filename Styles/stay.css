@@ -1,0 +1,120 @@
+#stay{
+width: 100%;
+
+}
+#box1{
+    box-shadow: 5px 5px 15px 2px #555555;
+    width: 60%;
+    margin-top: 10%;
+    margin-left: 8%;
+    display: flex;
+
+
+}
+#box2{
+
+    width: 50%;
+    margin-left:45% ;
+    margin-top: -18%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #box2{
+        display: none;
+    }
+    #box1{
+        box-shadow: 5px 5px 15px 2px #555555;
+        width: 90%;
+        margin-top: 10%;
+        margin-left: 5%;
+        display: flex;
+
+
+    }
+
+}
+/*@media only screen and (max-width: 400px) {*/
+/*#box1{*/
+
+/*    width: 70%;*/
+/*    margin-top: 10%;*/
+/*    margin-left: 8%;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+/*    .article{*/
+
+
+/*        width: 100%;*/
+/*        height: 50%;*/
+/*        display: flex;*/
+/*        flex-direction: column;*/
+/*        margin-left: 5%;*/
+/*        margin-bottom: 5%;*/
+
+/*    }*/
+/*    .secondPart{*/
+
+/*        width: 100%;*/
+/*        height: 50%;*/
+
+/*    }*/
+
+/*}*/
+.article{
+
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-bottom: 5%;
+
+}
+.secondPart{
+
+    width: 50%;
+    max-height: 100%;
+
+}
+.stay-head{
+border-top: 1px solid rgba(50, 50, 50, .3);
+width: 20%;
+
+
+}
+.stay-par{
+font-family: Calibri;
+
+}
+.stay-btn{
+    font-weight: bold;
+
+}
+.style-font{
+    font-weight: bold;
+    color: #555555;
+}
+.btn{
+    background-color: transparent;
+    border-radius: 30px;
+    width: 130px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: #888888 1px solid;
+    margin-top: 10%;
+}
+.btn:focus{
+    outline: none;
+}
+.btn:hover{
+    color: white;
+    background-color: #555555;
+    cursor: pointer;
+}
+.style-head-stay{
+    font-size: 70px;
+
+}

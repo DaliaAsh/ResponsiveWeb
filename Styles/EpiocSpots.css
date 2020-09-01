@@ -1,0 +1,131 @@
+#EpicSpots{
+    width: 100%;
+    position: relative;
+}
+.header-spot{
+    font-family: Amiri;
+
+}
+.style-spot{
+    text-align: center;
+    font-size: 50px;
+    color:#555;
+    font-weight: bold;
+
+
+}
+
+.style-spot-line{
+    text-align: center;
+    font-size: 50%;
+    color:#888888;
+    position: absolute;
+    top:-2%;
+    left: 47%;
+
+
+
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .img-container{
+        margin: 12%;
+        font-size: 80%;
+
+
+    }
+    .img-text, .img-text1,.img-text2,.img-text3,.img-text4{
+        position: relative;
+        margin: 5%;
+    }
+    .desciption-box{
+        position: absolute;
+        bottom: 5%;
+        left: 5%;
+    }
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .img-container{
+        font-size: 80%;
+        width: 100%;
+        margin: 12%;
+    }
+    #package-1,#package-2{
+        width: 60%;
+        margin: 5%;
+    }
+
+    .img-text,.img-text1,.img-text2,.img-text3,.img-text4{
+        position: relative;
+
+    }
+
+    #item0{
+        width: 60%;
+        margin: 5%;
+    }
+
+    .desciption-box{
+        position: absolute;
+        bottom: 5%;
+        left: 5%;
+    }
+    .img-text1,.img-text2,.img-text3,.img-text4{
+        width: 50%;
+        height: 50%;
+        padding: 1%;
+        float: left;
+    }
+   
+}
+
+@media only screen and (min-width: 992px) {
+    #item0{
+        width: 40%;
+        height: 300px;
+        margin-top:20% ;
+        position: absolute;
+        bottom: 25%;
+
+    }
+ .img-container{
+     position: relative;
+     height: 600px;
+     margin: 0;
+     padding: 0;
+     width: 100%;
+ }
+    .img-text{
+
+        position: absolute;
+        left: -2%;
+        bottom: 19%;
+
+    }
+    #package-1{
+        position: absolute;
+        left: 40%;
+        bottom: 40%;
+    }
+    #package-2{
+        position: absolute;
+        left: 40%;
+        bottom: 8%;
+    }
+    /*[class*="img-text-"]{*/
+    /*    */
+    /*}*/
+    .img-text1,.img-text2,.img-text3,.img-text4{
+        width: 40%;
+        height: 50%;
+    }
+
+}
+
+
+
